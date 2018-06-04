@@ -11,5 +11,4 @@ docker run -d -p 8080:8080 test-api
 To Test Sample:
 
 ```
-http://YOU_DOCKER_HOST_IP:8080/api/fgh8974yhfkh4/city1=Novosibirsk&city2=Kradnodar&price=100
-```
+http://YOU_DOCKER_HOST_IP:8080/?token=testtoken&city1=Novosibirsk&city2=Kradnodar&price=100
